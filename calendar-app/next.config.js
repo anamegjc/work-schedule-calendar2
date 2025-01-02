@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath: '/work-schedule-calendar',
+    basePath: process.env.NEXT_PUBLIC_BASE_PATH,
     images: {
       unoptimized: true
     }
