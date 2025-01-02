@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/work-schedule-calendar2/static/css/main.ed9f3d61.css",
+    "main.js": "/work-schedule-calendar2/static/js/main.fb0e2922.js",
+    "index.html": "/work-schedule-calendar2/index.html",
+    "main.ed9f3d61.css.map": "/work-schedule-calendar2/static/css/main.ed9f3d61.css.map",
+    "main.fb0e2922.js.map": "/work-schedule-calendar2/static/js/main.fb0e2922.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed9f3d61.css",
+    "static/js/main.fb0e2922.js"
+  ]
+}
