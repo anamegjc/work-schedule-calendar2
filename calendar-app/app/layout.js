@@ -11,12 +11,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: 'Work Schedule',
-  description: 'Monthly work schedule calendar',
-}
-
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+export const metadata = {
+  title: "Work Schedule Calendar",
+  description: "Monthly work schedule calendar",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -24,7 +24,9 @@ export default function RootLayout({ children }) {
       <head>
         <base href={basePath + '/'} />
       </head>
-      <body>{children}</body>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
